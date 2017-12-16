@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index1.css" />
+    <script>
+        // 获取像素比
+        var dpr = window.devicePixelRatio;
+        // 计算缩放比例
+        var ratio = 1 / dpr;
+        //将求出比例写入viewport
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ratio+',minimum-scale='+ratio+',maximum-scale='+ratio+',user-scalable=no" />')
+
+        //获取屏幕宽度
+        var dWidth = document.documentElement.clientWidth / 10;
+        // 计算公式： 屏幕宽度 / 10 = html字体大小
+        var html = document.getElementsByTagName('html')[0];
+        html.style.fontSize = dWidth + 'px';
+    </script>
+</head>
+<body>
+<!--头部区域header.head-->
+<header class="head">
+    <h1 class="logo">爱奇艺</h1>
+    <div class="head-right">
+        <a href="" class="search-link">
+            搜索
+        </a>
+        <a href="" class="history-link">
+            历史
+        </a>
+        <a href="" class="mine-link">
+            我的
+        </a>
+        <a href="" class="download-link">
+            下载APP
+        </a>
+    </div>
+</header>
+<!--页面导航nav.nav-->
+<nav class="nav">
+    <a href="" class="">
+        精选
+        <span class="nav-bg">悬停下滑线</span>
+    </a>
+    <a href="" class="">
+        VIP会员
+        <span class="nav-bg">悬停下滑线</span>
+    </a>
+    <a href="" class="">
+        热点
+        <span class="nav-bg">悬停下滑线</span>
+    </a>
+    <a href="" class="">
+        电视剧
+        <span class="nav-bg">悬停下滑线</span>
+    </a>
+    <a href="" class="">
+        电影
+        <span class="nav-bg">悬停下滑线</span>
+    </a>
+    <a href="" class="nav-btn">
+        导航
+    </a>
+</nav>
+<!--内容区域section.content-->
+<section class="content">
+    <form class="search-form">
+        <input class="search-insert" type="search" name="" id="" value="青春无敌" />
+        <input class="search-btn" type="submit" name="" id="" value="" />
+    </form>
+    <div class="banner">
+        <a href="" class="banner-pic">
+            <span  class="banner-pic-title">梦想的声音：林忆莲秀窒息高音</span>
+            <span  class="particular">独播</span>
+            <span  class="period">12-08期</span>
+        </a>
+    </div>
+    <ul class="menu">
+        <li class="menu-list">
+            <a href="" class="TV">
+                <span  class="menu-list-pic TV-pic">图标</span>
+                <span  class="">海牧</span>
+            </a>
+        </li>
+        <li class="menu-list">
+            <a href="" class="play-free">
+                <span  class="menu-list-pic play-free-pic">图标</span>
+                <span  class="">免流量追剧</span>
+            </a>
+        </li>
+        <li class="menu-list">
+            <a href="" class="novel">
+                <span  class="menu-list-pic novel-pic">图标</span>
+                <span  class="">小说</span>
+            </a>
+        </li>
+        <li class="menu-list">
+            <a href="" class="movie-tiket">
+                <span  class="menu-list-pic movie-tiket-pic">图标</span>
+                <span  class="">电影票</span>
+            </a>
+        </li>
+        <li class="menu-list">
+            <a href="" class="store">
+                <span  class="menu-list-pic store-pic">图标</span>
+                <span  class="">商城</span>
+            </a>
+        </li>
+    </ul>
+    <ul class="hot">
+        <li class="hot-list">
+            <a href="" class="hot-list-pic">
+                <img src="../img/hot-list-pic-1.png" alt=" "/>
+            </a>
+            <a href="" class="hot-list-title">
+                国家宝藏
+            </a>
+            <a href="" class="hot-list-describe">
+                撒贝宁毒画风讲述历史
+            </a>
+        </li>
+        <li class="hot-list nmr">
+            <a href="" class="hot-list-pic">
+                <img src="../img/hot-list-pic-2.png" alt=" "/>
+            </a>
+            <a href="" class="hot-list-title">
+                你好，旧时光
+            </a>
+            <a href="" class="hot-list-describe">
+                辛锐黑化耍心机
+            </a>
+        </li>
+        <li class="hot-list">
+            <a href="" class="hot-list-pic">
+                <img src="../img/hot-list-pic-3.png" alt=" "/>
+            </a>
+            <a href="" class="hot-list-title">
+                九州海上牧云记
+            </a>
+            <a href="" class="hot-list-describe">
+                窦瑶拒绝徐璐示爱
+            </a>
+        </li>
+        <li class="hot-list nmr">
+            <a href="" class="hot-list-pic">
+                <img src="../img/hot-list-pic-4.png" alt=" "/>
+            </a>
+            <a href="" class="hot-list-title">
+                特化师
+            </a>
+            <a href="" class="hot-list-describe">
+                张丹峰谭松韵甜虐爱恋
+            </a>
+        </li>
+    </ul>
+    <!--今日资讯div.today-infor-->
+    <div class="today-news">
+        <header class="today-news-head">
+            <h1 class="today-news-title">
+                今日资讯
+            </h1>
+        </header>
+        <div class="today-news-content">
+            <div class="content-text">
+                <a href="" class="content-text-item mb49">
+                    文在寅就任韩国总统后首次访华
+                </a>
+                <a href="" class="content-text-item">
+                    贾跃亭上老赖名单 乘坐飞机受限
+                </a>
+            </div>
+            <ul class="content-pictext">
+                <li class="pictext-list">
+                    <a href="" class="pictext-list-pic">
+                        <img src="../img/pictext-list-pic-1.png" alt=" "/>
+                        <span  class="special-topic">专题</span>
+                    </a>
+                    <a href="" class="pictext-list-describe">
+                        独家专访《凰权》陈坤
+                    </a>
+                </li>
+                <li class="pictext-list nmr">
+                    <a href="" class="pictext-list-pic">
+                        <img src="../img/pictext-list-pic-2.png" alt=" "/>
+                    </a>
+                    <a href="" class="pictext-list-describe">
+                        小伙无差错每分钟打次238
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <footer class="today-news-foot">
+            <a href="" class="more fl">
+                <span  class="">更多资讯</span>
+                <span class="ico">图标</span>
+            </a>
+            <a href="" class="change fr">
+                <span  class="">换一批</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--电视剧div.TV-box-->
+    <div class="TV-box">
+        <header class="TV-box-head">
+            <h3 class="TV-box-title">
+                电视剧
+            </h3>
+        </header>
+        <ul class="TV-box-content">
+            <li class="TV-box-list">
+                <a href="" class="TV-box-list-pic">
+                    <img src="../img/TV-box-list-pic-1.png" alt=" "/>
+                    <span class="period">更新至44集</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="TV-box-list-text">
+                    九州海上牧云记
+                </a>
+            </li>
+            <li class="TV-box-list">
+                <a href="" class="TV-box-list-pic">
+                    <img src="../img/TV-box-list-pic-2.png" alt=" "/>
+                    <span class="period">42集全</span>
+                    <span class="particular">独播</span>
+                </a>
+                <a href="" class="TV-box-list-text">
+                    特化师
+                </a>
+            </li>
+            <li class="TV-box-list">
+                <a href="" class="TV-box-list-pic">
+                    <img src="../img/TV-box-list-pic-3.png" alt=" "/>
+                    <span class="period">更新至8集</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="TV-box-list-text">
+                    亲爱的她们
+                </a>
+            </li>
+            <li class="TV-box-list">
+                <a href="" class="TV-box-list-pic">
+                    <img src="../img/TV-box-list-pic-4.png" alt=" "/>
+                    <span class="period">10集全</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="TV-box-list-text">
+                    超越
+                </a>
+            </li>
+            <li class="TV-box-list">
+                <a href="" class="TV-box-list-pic">
+                    <img src="../img/TV-box-list-pic-5.png" alt=" "/>
+                    <span class="period">更新至19集</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="TV-box-list-text">
+                    你好旧时光
+                </a>
+            </li>
+            <li class="TV-box-list">
+                <a href="" class="TV-box-list-pic">
+                    <img src="../img/TV-box-list-pic-6.png" alt=" "/>
+                    <span class="period">15集全</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="TV-box-list-text">
+                    龙凤店传奇第二季
+                </a>
+            </li>
+        </ul>
+        <footer class="TV-box-foot">
+            <a href="" class="more fl">
+                <span  class="">更多电视剧</span>
+                <span class="ico">图标</span>
+            </a>
+            <a href="" class="change fr">
+                <span  class="">换一批</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--电影div.movie-box-->
+    <div class="movie-box">
+        <header class="movie-box-head">
+            <h3 class="movie-box-title">
+                电影
+            </h3>
+        </header>
+        <ul class="movie-box-content">
+            <li class="movie-box-list">
+                <a href="" class="movie-box-list-pic">
+                    <img src="../img/movie-box-list-pic-1.png" alt=" "/>
+                    <span class="grade">7.5</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="movie-box-list-text">
+                    乱世豪情
+                </a>
+            </li>
+            <li class="movie-box-list">
+                <a href="" class="movie-box-list-pic">
+                    <img src="../img/movie-box-list-pic-2.png" alt=" "/>
+                    <span class="grade">7.5</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="movie-box-list-text">
+                    天文馆
+                </a>
+            </li>
+            <li class="movie-box-list">
+                <a href="" class="movie-box-list-pic">
+                    <img src="../img/movie-box-list-pic-3.png" alt=" "/>
+                    <span class="grade">7.5</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="movie-box-list-text">
+                    暴雪将至
+                </a>
+            </li>
+            <li class="movie-box-list">
+                <a href="" class="movie-box-list-pic">
+                    <img src="../img/movie-box-list-pic-4.png" alt=" "/>
+                    <span class="grade">7.5</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="movie-box-list-text">
+                    海伦娜之路
+                </a>
+            </li>
+            <li class="movie-box-list">
+                <a href="" class="movie-box-list-pic">
+                    <img src="../img/movie-box-list-pic-5.png" alt=" "/>
+                    <span class="grade">7.5</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="movie-box-list-text">
+                    缝纫机乐队
+                </a>
+            </li>
+            <li class="movie-box-list">
+                <a href="" class="movie-box-list-pic">
+                    <img src="../img/movie-box-list-pic-6.png" alt=" "/>
+                    <span class="grade">7.5</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="movie-box-list-text">
+                    英伦对决
+                </a>
+            </li>
+        </ul>
+        <footer class="movie-box-foot">
+            <a href="" class="more fl">
+                <span  class="">更多电影</span>
+                <span class="ico">图标</span>
+            </a>
+            <a href="" class="change fr">
+                <span  class="">换一批</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--动漫div.cartoon-box-->
+    <div class="cartoon-box">
+        <header class="cartoon-box-head">
+            <h3 class="cartoon-box-title">
+                动漫
+            </h3>
+        </header>
+        <ul class="cartoon-box-content">
+            <li class="cartoon-box-list">
+                <a href="" class="cartoon-box-list-pic">
+                    <img src="../img/cartoon-box-list-pic-1.png" alt=" "/>
+                    <span class="period">更新至33集</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="cartoon-box-list-text">
+                    熊出没之探险日记
+                </a>
+            </li>
+            <li class="cartoon-box-list">
+                <a href="" class="cartoon-box-list-pic">
+                    <img src="../img/cartoon-box-list-pic-2.png" alt=" "/>
+                    <span class="period">更新至817集</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="cartoon-box-list-text">
+                    海贼王
+                </a>
+            </li>
+            <li class="cartoon-box-list">
+                <a href="" class="cartoon-box-list-pic">
+                    <img src="../img/cartoon-box-list-pic-3.png" alt=" "/>
+                    <span class="period">更新至8集</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="cartoon-box-list-text">
+                    龙珠超
+                </a>
+            </li>
+            <li class="cartoon-box-list">
+                <a href="" class="cartoon-box-list-pic">
+                    <img src="../img/cartoon-box-list-pic-4.png" alt=" "/>
+                    <time class="video-time">02:00:45</time>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="cartoon-box-list-text">
+                    十万个冷笑话2
+                </a>
+            </li>
+            <li class="cartoon-box-list">
+                <a href="" class="cartoon-box-list-pic">
+                    <img src="../img/cartoon-box-list-pic-5.png" alt=" "/>
+                    <time class="video-time">02:00:45</time>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="cartoon-box-list-text">
+                    黑色四叶草
+                </a>
+            </li>
+            <li class="cartoon-box-list">
+                <a href="" class="cartoon-box-list-pic">
+                    <img src="../img/cartoon-box-list-pic-6.png" alt=" "/>
+                    <time class="video-time">02:00:45</time>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="cartoon-box-list-text">
+                    哆啦A梦
+                </a>
+            </li>
+        </ul>
+        <footer class="cartoon-box-foot">
+            <a href="" class="more">
+                <span  class="">更多动漫</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--综艺div.variety-show-->
+    <div class="variety-show">
+        <header class="variety-show-head">
+            <h3 class="variety-show-title">
+                综艺
+            </h3>
+        </header>
+        <ul class="variety-show-content">
+            <li class="variety-show-list">
+                <a href="" class="variety-show-list-pic">
+                    <img src="../img/variety-show-list-pic-1.png" alt=" "/>
+                    <span class="period">12-13期</span>
+                    <span href="" class="particular ">独播</span>
+                </a>
+                <div href="" class="variety-show-list-text">
+                    <a href="" class="variety-show-title">
+                        无以伦比的发布会第3季
+                    </a>
+                    <a href="" class="variety-show-describe">
+                        何洁刘畊宏共享育儿经
+                    </a>
+                </div>
+            </li>
+            <li class="variety-show-list">
+                <a href="" class="variety-show-list-pic">
+                    <img src="../img/variety-show-list-pic-2.png" alt=" "/>
+                    <span class="period">12-13期</span>
+                </a>
+                <div href="" class="variety-show-list-text">
+                    <a href="" class="variety-show-title">
+                        梦想的声音第二季
+                    </a>
+                    <a href="" class="variety-show-describe">
+                        买家秀1华少学瑜老板剪刀手
+                    </a>
+                </div>
+            </li>
+            <li class="variety-show-list">
+                <a href="" class="variety-show-list-pic">
+                    <img src="../img/variety-show-list-pic-3.png" alt=" "/>
+                    <span class="period">更新至8集</span>
+                </a>
+                <div href="" class="variety-show-list-text">
+                    <a href="" class="variety-show-title">
+                        坑王驾到第3季
+                    </a>
+                    <a href="" class="variety-show-describe">
+                        天师边城管 奉旨封茶铺
+                    </a>
+                </div>
+            </li>
+            <li class="variety-show-list">
+                <a href="" class="variety-show-list-pic">
+                    <img src="../img/variety-show-list-pic-4.png" alt=" "/>
+                    <time class="video-time">02:00:45</time>
+                </a>
+                <div href="" class="variety-show-list-text">
+                    <a href="" class="variety-show-title">
+                        穿越吧
+                    </a>
+                    <a href="" class="variety-show-describe">
+                        张国立化身班主穿越进京
+                    </a>
+                </div>
+            </li>
+            <li class="variety-show-list">
+                <a href="" class="variety-show-list-pic">
+                    <img src="../img/variety-show-list-pic-5.png" alt=" "/>
+                    <time class="video-time">02:00:45</time>
+                </a>
+                <div href="" class="variety-show-list-text">
+                    <a href="" class="variety-show-title">
+                        爱情保卫战
+                    </a>
+                    <a href="" class="variety-show-describe">
+                        轻浮男子爱吹牛当场怼准岳母
+                    </a>
+                </div>
+            </li>
+            <li class="variety-show-list">
+                <a href="" class="variety-show-list-pic">
+                    <img src="../img/variety-show-list-pic-6.png" alt=" "/>
+                    <time class="video-time">02:00:45</time>
+                </a>
+                <div href="" class="variety-show-list-text">
+                    <a href="" class="variety-show-title">
+                        超凡魔术师
+                    </a>
+                    <a href="" class="variety-show-describe">
+                        脑洞清奇范冰冰欲用头发变魔术
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <footer class="variety-show-foot">
+            <a href="" class="more">
+                <span  class="">更多综艺</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--娱乐div.entertainment-->
+    <div class="entertainment">
+        <header class="entertainment-head">
+            <h3 class="entertainment-title">
+                娱乐
+            </h3>
+        </header>
+        <ul class="entertainment-content">
+            <li class="entertainment-list">
+                <a href="" class="entertainment-list-pic">
+                    <img src="../img/entertainment-list-pic-1.png" alt=" "/>
+                    <span class="period">更新至33集</span>
+                </a>
+                <span  class="publish-time">2小时前发布</span>
+                <a href="" class="entertainment-list-text">
+                    古天乐继续收集星战玩具
+                </a>
+            </li>
+            <li class="entertainment-list">
+                <a href="" class="entertainment-list-pic">
+                    <img src="../img/entertainment-list-pic-2.png" alt=" "/>
+                    <span class="period">更新至817集</span>
+                </a>
+                <span  class="publish-time">3小时前发布</span>
+                <a href="" class="entertainment-list-text">
+                    周周送杨林惊喜生日礼物
+                </a>
+            </li>
+            <li class="entertainment-list">
+                <a href="" class="entertainment-list-pic">
+                    <img src="../img/entertainment-list-pic-3.png" alt=" "/>
+                    <span class="period">更新至8集</span>
+                </a>
+                <span  class="publish-time">5小时前发布</span>
+                <a href="" class="entertainment-list-text">
+                    baby早起性感照片曝光
+                </a>
+            </li>
+            <li class="entertainment-list">
+                <a href="" class="entertainment-list-pic">
+                    <img src="../img/entertainment-list-pic-4.png" alt=" "/>
+                    <time class="video-time">02:00:45</time>
+                    <span  class="special-topic">专题</span>
+                </a>
+                <span  class="publish-time">2小时前发布</span>
+                <a href="" class="entertainment-list-text">
+                    范冰冰19岁旧照曝光
+                </a>
+            </li>
+            <li class="entertainment-list">
+                <a href="" class="entertainment-list-pic">
+                    <img src="../img/entertainment-list-pic-5.png" alt=" "/>
+                    <time class="video-time">02:00:45</time>
+                </a>
+                <span  class="publish-time">4小时前发布</span>
+                <a href="" class="entertainment-list-text">
+                    PG One谈与小白相识
+                </a>
+            </li>
+            <li class="entertainment-list">
+                <a href="" class="entertainment-list-pic">
+                    <img src="../img/entertainment-list-pic-6.png" alt=" "/>
+                    <time class="video-time">02:00:45</time>
+                    <span class="self-produce">自制</span>
+                </a>
+                <span  class="publish-time">1小时前发布</span>
+                <a href="" class="entertainment-list-text">
+                    《爱奇艺早班机》精选
+                </a>
+            </li>
+        </ul>
+        <footer class="entertainment-foot">
+            <a href="" class="more">
+                <span  class="">更多娱乐</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--原创div.original-->
+    <div class="original">
+        <header class="original-head">
+            <h3 class="original-title">
+                原创
+            </h3>
+        </header>
+        <ul class="original-content">
+            <li class="original-list">
+                <a href="" class="original-list-pic">
+                    <img src="../img/original-list-pic-1.png" alt=" "/>
+                    <span class="period">12-14期</span>
+                </a>
+                <a href="" class="original-list-text">
+                    【飞碟说】第二季
+                </a>
+            </li>
+            <li class="original-list">
+                <a href="" class="original-list-pic">
+                    <img src="../img/original-list-pic-2.png" alt=" "/>
+                    <span class="period">12-14期</span>
+                </a>
+                <a href="" class="original-list-text">
+                    对付女生总迟到的杀手锏
+                </a>
+            </li>
+            <li class="original-list">
+                <a href="" class="original-list-pic">
+                    <img src="../img/original-list-pic-3.png" alt=" "/>
+                    <span class="period">12-14期</span>
+                </a>
+                <a href="" class="original-list-text">
+                    找金牛座女生借钱的话等死吧
+                </a>
+            </li>
+            <li class="original-list">
+                <a href="" class="original-list-pic">
+                    <img src="../img/original-list-pic-4.png" alt=" "/>
+                    <span class="period">12-14期</span>
+                </a>
+                <a href="" class="original-list-text">
+                    美女街头整蛊当代低头族
+                </a>
+            </li>
+            <li class="original-list">
+                <a href="" class="original-list-pic">
+                    <img src="../img/original-list-pic-5.png" alt=" "/>
+                    <span class="period">12-14期</span>
+                </a>
+                <a href="" class="original-list-text">
+                    新一批女友总命题已经诞生
+                </a>
+            </li>
+            <li class="original-list">
+                <a href="" class="original-list-pic">
+                    <img src="../img/original-list-pic-6.png" alt=" "/>
+                    <span class="period">12-14期</span>
+                </a>
+                <a href="" class="original-list-text">
+                    为啥做剩女也不便宜你
+                </a>
+            </li>
+        </ul>
+        <footer class="original-foot">
+            <a href="" class="more">
+                <span  class="">更多原创</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--头条div.headline-->
+    <div class="headline">
+        <header class="headline-head">
+            <h3 class="headline-title">
+                头条
+            </h3>
+        </header>
+        <ul class="headline-content">
+            <li class="headline-list">
+                <a href="" class="headline-list-pic">
+                    <img src="../img/headline-list-pic-1.png" alt=" "/>
+                </a>
+                <a href="" class="headline-list-text">
+                    哥哥借弟媳妇生孩子，没想到自己媳妇却怀上弟弟的孩子
+                </a>
+            </li>
+            <li class="headline-list">
+                <a href="" class="headline-list-pic">
+                    <img src="../img/headline-list-pic-2.png" alt=" "/>
+                </a>
+                <a href="" class="headline-list-text">
+                    非洲人吃辣椒的反应，最后那个人截屏看表情眼泪都笑出来！
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--游戏div.game-box-->
+    <div class="game-box">
+        <header class="game-box-head">
+            <h3 class="game-box-title">
+                游戏
+            </h3>
+        </header>
+        <ul class="game-box-content">
+            <li class="game-box-list">
+                <a href="" class="game-box-list-pic">
+                    <img src="../img/game-box-list-pic-1.png" alt=" "/>
+                    <span class="period">12-12期</span>
+                </a>
+                <a href="" class="game-box-list-text">
+                    小本成龙【小龙】我的世界国外地图搞笑
+                </a>
+            </li>
+            <li class="game-box-list">
+                <a href="" class="game-box-list-pic">
+                    <img src="../img/game-box-list-pic-2.png" alt=" "/>
+                    <span class="period">12-11期</span>
+                </a>
+                <a href="" class="game-box-list-text">
+                    60秒上王者
+                </a>
+            </li>
+            <li class="game-box-list">
+                <a href="" class="game-box-list-pic">
+                    <img src="../img/game-box-list-pic-3.png" alt=" "/>
+                    <span class="period">12-13期</span>
+                </a>
+                <a href="" class="game-box-list-text">
+                    实时游戏最新资讯影像
+                </a>
+            </li>
+            <li class="game-box-list">
+                <a href="" class="game-box-list-pic">
+                    <img src="../img/game-box-list-pic-4.png" alt=" "/>
+                    <span class="period">12-14期</span>
+                </a>
+                <a href="" class="game-box-list-text">
+                    独立游戏
+                </a>
+            </li>
+        </ul>
+        <footer class="game-box-foot">
+            <a href="" class="more">
+                <span  class="">更多游戏</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--儿童div.children-->
+    <div class="children">
+        <header class="children-head">
+            <h3 class="children-title">
+                儿童
+            </h3>
+        </header>
+        <ul class="children-content">
+            <li class="children-list">
+                <a href="" class="children-list-pic">
+                    <img src="../img/children-list-pic-1.png" alt=" "/>
+                    <span class="period">更新至第7集</span>
+                </a>
+                <a href="" class="children-list-text">
+                    汪汪队立大功 第4季
+                </a>
+            </li>
+            <li class="children-list">
+                <a href="" class="children-list-pic">
+                    <img src="../img/children-list-pic-2.png" alt=" "/>
+                    <span class="period">30集全</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="children-list-text">
+                    小公主苏菲亚 第3季
+                </a>
+            </li>
+            <li class="children-list">
+                <a href="" class="children-list-pic">
+                    <img src="../img/children-list-pic-3.png" alt=" "/>
+                    <span class="period">更新至50集</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="children-list-text">
+                    可爱巧虎岛 第2季
+                </a>
+            </li>
+            <li class="children-list">
+                <a href="" class="children-list-pic">
+                    <img src="../img/children-list-pic-4.png" alt=" "/>
+                    <span class="period">50集全</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="children-list-text">
+                    <span  class="">新大头儿子和小头爸爸</span>
+                    <br />
+                    <span  class=""> 第4季</span>
+                </a>
+            </li>
+        </ul>
+        <footer class="children-foot">
+            <a href="" class="more">
+                <span  class="">更多儿童</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--母婴div.motherbody-->
+    <div class="motherbody">
+        <header class="motherbody-head">
+            <h3 class="motherbody-title">
+                母婴
+            </h3>
+        </header>
+        <ul class="motherbody-content">
+            <li class="motherbody-list">
+                <a href="" class="motherbody-list-pic">
+                    <img src="../img/motherbody-list-pic-1.png" alt=" "/>
+                    <span class="period">更新至第147集</span>
+                    <span class="VIP">VIP</span>
+                </a>
+                <a href="" class="motherbody-list-text">
+                    导致小儿肥胖竟是因为它！
+                </a>
+            </li>
+            <li class="motherbody-list">
+                <a href="" class="motherbody-list-pic">
+                    <img src="../img/motherbody-list-pic-2.png" alt=" "/>
+                    <span class="period">12-11期</span>
+                </a>
+                <a href="" class="motherbody-list-text">
+                    产后宝妈必经历的关卡
+                </a>
+            </li>
+            <li class="motherbody-list">
+                <a href="" class="motherbody-list-pic">
+                    <img src="../img/motherbody-list-pic-3.png" alt=" "/>
+                </a>
+                <a href="" class="motherbody-list-text">
+                    恐龙破坏王第二季
+                </a>
+            </li>
+            <li class="motherbody-list">
+                <a href="" class="motherbody-list-pic">
+                    <img src="../img/motherbody-list-pic-4.png" alt=" "/>
+                    <span class="period">12-12期</span>
+                </a>
+                <a href="" class="motherbody-list-text">
+                    小粉象英语启蒙儿歌
+                </a>
+            </li>
+        </ul>
+        <footer class="motherbody-foot">
+            <a href="" class="more">
+                <span  class="">更多母婴</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--教育div.education-->
+    <div class="education">
+        <header class="education-head">
+            <h3 class="education-title">
+                教育
+            </h3>
+        </header>
+        <ul class="education-content">
+            <li class="education-list">
+                <a href="" class="education-list-pic">
+                    <img src="../img/education-list-pic-1.png" alt=" "/>
+                    <span class="period">130集全</span>
+                </a>
+                <a href="" class="education-list-text">
+                    小老虎丹尼尔
+                </a>
+            </li>
+            <li class="education-list">
+                <a href="" class="education-list-pic">
+                    <img src="../img/education-list-pic-2.png" alt=" "/>
+                    <span class="period">3集全</span>
+                    <span class="pay">付费</span>
+                </a>
+                <a href="" class="education-list-text">
+                    星空漫画堂  漫画基础课程  ComicStudio教程
+                </a>
+            </li>
+            <li class="education-list">
+                <a href="" class="education-list-pic">
+                    <img src="../img/education-list-pic-3.png" alt=" "/>
+                    <span class="period">更新至26集</span>
+                </a>
+                <a href="" class="education-list-text">
+                    动物兄弟
+                </a>
+            </li>
+            <li class="education-list">
+                <a href="" class="education-list-pic">
+                    <img src="../img/education-list-pic-4.png" alt=" "/>
+                    <span class="period">14集全</span>
+                    <span class="pay">付费</span>
+                </a>
+                <a href="" class="education-list-text">
+                    刘沙乐队指挥初级课程
+                </a>
+            </li>
+        </ul>
+        <footer class="education-foot">
+            <a href="" class="more">
+                <span  class="">更多教育</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--纪录片div.documentary-->
+    <div class="documentary">
+        <header class="documentary-head">
+            <h3 class="documentary-title">
+                纪录片
+            </h3>
+        </header>
+        <ul class="documentary-content">
+            <li class="documentary-list">
+                <a href="" class="documentary-list-pic">
+                    <img src="../img/documentary-list-pic-1.png" alt=" "/>
+                    <span class="period">更新至1集</span>
+                </a>
+                <a href="" class="documentary-list-text">
+                    不麻不辣的川菜怎么吃？
+                </a>
+            </li>
+            <li class="documentary-list">
+                <a href="" class="documentary-list-pic">
+                    <img src="../img/documentary-list-pic-2.png" alt=" "/>
+                    <span class="period">12-12期</span>
+                </a>
+                <a href="" class="documentary-list-text">
+                    这个村子80%人都会吉他
+                </a>
+            </li>
+            <li class="documentary-list">
+                <a href="" class="documentary-list-pic">
+                    <img src="../img/documentary-list-pic-3.png" alt=" "/>
+                    <span class="period">10-20期</span>
+                    <span class="self-produce">自制</span>
+                </a>
+                <a href="" class="documentary-list-text">
+                    一段别人无法代替的旅程
+                </a>
+            </li>
+            <li class="documentary-list">
+                <a href="" class="documentary-list-pic">
+                    <img src="../img/documentary-list-pic-4.png" alt=" "/>
+                    <span class="period">1集全</span>
+                </a>
+                <a href="" class="documentary-list-text">
+                    狗狗秘闻
+                </a>
+            </li>
+        </ul>
+        <footer class="documentary-foot">
+            <a href="" class="more">
+                <span  class="">更多纪录片</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--生活div.life-->
+    <div class="life">
+        <header class="life-head">
+            <h3 class="life-title">
+                生活
+            </h3>
+        </header>
+        <ul class="life-content">
+            <li class="life-list">
+                <a href="" class="life-list-pic">
+                    <img src="../img/life-list-pic-1.png" alt=" "/>
+                    <span class="period">12-14期</span>
+                </a>
+                <a href="" class="life-list-text">
+                    沈小姐的私房菜
+                </a>
+            </li>
+            <li class="life-list">
+                <a href="" class="life-list-pic">
+                    <img src="../img/life-list-pic-2.png" alt=" "/>
+                    <span class="period">11-14期</span>
+                </a>
+                <a href="" class="life-list-text">
+                    新手化妆教程
+                </a>
+            </li>
+            <li class="life-list">
+                <a href="" class="life-list-pic">
+                    <img src="../img/life-list-pic-3.png" alt=" "/>
+                    <span class="period">12-03期</span>
+                </a>
+                <a href="" class="life-list-text">
+                    歪果仁研究协会
+                </a>
+            </li>
+            <li class="life-list">
+                <a href="" class="life-list-pic">
+                    <img src="../img/life-list-pic-4.png" alt=" "/>
+                    <span class="period">12-10期</span>
+                </a>
+                <a href="" class="life-list-text">
+                    涛哥测评
+                </a>
+            </li>
+        </ul>
+        <footer class="life-foot">
+            <a href="" class="more">
+                <span  class="">更多生活</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--经济div.economy-->
+    <div class="economy">
+        <header class="economy-head">
+            <h3 class="economy-title">
+                经济
+            </h3>
+        </header>
+        <ul class="economy-content">
+            <li class="economy-list">
+                <a href="" class="economy-list-pic">
+                    <img src="../img/economy-list-pic-1.png" alt=" "/>
+                    <span class="period">12-12期</span>
+                    <span class="self-produce">自制</span>
+                </a>
+                <a href="" class="economy-list-text">
+                    吴晓波频道
+                </a>
+            </li>
+            <li class="economy-list">
+                <a href="" class="economy-list-pic">
+                    <img src="../img/economy-list-pic-2.png" alt=" "/>
+                    <span class="period">12-12期</span>
+                </a>
+                <a href="" class="economy-list-text">
+                    沸点
+                </a>
+            </li>
+        </ul>
+        <footer class="economy-foot">
+            <a href="" class="more">
+                <span  class="">更多经济</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--汽车div.vehicle-->
+    <div class="vehicle">
+        <header class="vehicle-head">
+            <h3 class="vehicle-title">
+                汽车
+            </h3>
+        </header>
+        <ul class="vehicle-content">
+            <li class="vehicle-list">
+                <a href="" class="vehicle-list-pic">
+                    <img src="../img/vehicle-list-pic-1.png" alt=" "/>
+                    <span class="period">12-12期</span>
+                    <span class="self-produce">自制</span>
+                </a>
+                <a href="" class="vehicle-list-text">
+                    女司机来了
+                </a>
+            </li>
+            <li class="vehicle-list">
+                <a href="" class="vehicle-list-pic">
+                    <img src="../img/vehicle-list-pic-2.png" alt=" "/>
+                    <span class="period">12-12期</span>
+                    <span class="self-produce">自制</span>
+                </a>
+                <a href="" class="vehicle-list-text">
+                    女司机来了
+                </a>
+            </li>
+        </ul>
+        <footer class="vehicle-foot">
+            <a href="" class="more">
+                <span  class="">更多汽车</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--科技div.technology-->
+    <div class="technology">
+        <header class="technology-head">
+            <h3 class="technology-title">
+                科技
+            </h3>
+        </header>
+        <ul class="technology-content">
+            <li class="technology-list">
+                <a href="" class="technology-list-pic">
+                    <img src="../img/technology-list-pic-1.png" alt=" "/>
+                    <span class="period">12-12期</span>
+                </a>
+                <a href="" class="technology-list-text">
+                    家居要吃鸡!骚年请表演
+                </a>
+            </li>
+            <li class="technology-list">
+                <a href="" class="technology-list-pic">
+                    <img src="../img/technology-list-pic-2.png" alt=" "/>
+                    <time class="video-time">11:03</time>
+                    <span class="particular">独播</span>
+                </a>
+                <a href="" class="technology-list-text">
+                    魏布斯体验苹果AR应用
+                </a>
+            </li>
+        </ul>
+        <footer class="technology-foot">
+            <a href="" class="more">
+                <span  class="">更多科技</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--应用推荐div.application-recommend-->
+    <div class="application-recommend">
+        <header class="application-recommend-head">
+            <h3 class="application-recommend-title">
+                应用推荐
+            </h3>
+        </header>
+        <ul class="application-recommend-content">
+            <li class="application-recommend-list">
+                <a href="" class="">
+							<span href="" class="application-recommend-list-pic">
+								<img src="../img/application-recommend-list-pic-1.png" alt=" "/>
+							</span>
+                    <span href="" class="application-recommend-list-name">
+								爱奇艺视频
+							</span>
+                </a>
+            </li>
+            <li class="application-recommend-list">
+                <a href="" class="">
+							<span href="" class="application-recommend-list-pic">
+								<img src="../img/application-recommend-list-pic-2.png" alt=" "/>
+							</span>
+                    <span href="" class="application-recommend-list-name">
+								爱奇艺PPS
+							</span>
+                </a>
+            </li>
+            <li class="application-recommend-list">
+                <a href="" class="">
+							<span href="" class="application-recommend-list-pic">
+								<img src="../img/application-recommend-list-pic-3.png" alt=" "/>
+							</span>
+                    <span href="" class="application-recommend-list-name">
+								爱奇艺头条
+							</span>
+                </a>
+            </li>
+            <li class="application-recommend-list">
+                <a href="" class="">
+							<span href="" class="application-recommend-list-pic">
+								<img src="../img/application-recommend-list-pic-4.png" alt=" "/>
+							</span>
+                    <span href="" class="application-recommend-list-name">
+								UC浏览器
+							</span>
+                </a>
+            </li>
+        </ul>
+        <footer class="application-recommend-foot">
+            <a href="" class="more">
+                <span  class="">更多应用推荐</span>
+                <span class="ico">图标</span>
+            </a>
+        </footer>
+    </div>
+    <!--内容底部div.content-foot-->
+    <footer class="content-foot">
+        <a href="" class="more">
+            <span class="ico">图标</span>
+            <span  class="">意见反馈</span>
+        </a>
+    </footer>
+</section>
+<!--页脚区域footer.foot-->
+<footer class="foot">
+    <span class="grey-logo">灰色logo</span>
+</footer>
+</body>
+</html>

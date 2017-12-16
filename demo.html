@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圣诞游戏</title>
+    <style>
+        html,body{padding: 0;margin: 0;}
+        .bg{width: 16rem;height: 2rem;background-color: #999999;}
+    </style>
+    <script>
+        /*rem不同分辨率适配*/
+        (function (doc,win) {
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' :'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if(!clientWidth) return;
+                    docEl.style.fontSize = 100*(clientWidth/375)+'px';
+
+                }
+                if(!doc.addEventListener) return;
+            win.addEventListener(resizeEvt,recalc,false);
+            doc.addEventListener('DOMContentLoaded',recalc,false);
+        })(document,window)
+    </script>
+</head>
+<body>
+<div class="bg" id="bg"></div>
+</body>
+</html>
