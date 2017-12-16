@@ -40,7 +40,6 @@ body {height: 100%;overflow: auto;line-height: 0.5rem;}
     50%, 100% {-webkit-transform: translateY(0);}
     75% {-webkit-transform: translateY(-10px);}
 }
-
 /*第一关*/
 .bg2{background: url("img/bg1.jpg") no-repeat 0 0;background-size: contain;}
 .bg2 .one-text1216{display: inline-block;width: 2.23rem;height: .77rem;background: url("img/one.png") no-repeat center center;background-size: contain;padding-top: .6rem;}
