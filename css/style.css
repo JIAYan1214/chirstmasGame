@@ -119,6 +119,7 @@ body {height: 100%;overflow: auto;line-height: 0.5rem;}
     -o-transform: translate(-50%,-25%);
     transform: translate(-50%,-25%);
 }
+
 .modal .modal-cont1217 {width: 5.15rem;height: 3.55rem;background: url("img/modal1.png") no-repeat center center;background-size: contain;position: relative;}
 
 .modal-cont1217 a.btn1217{display: block;position: absolute;width: 1.43rem;height: 0.7rem;bottom: 1.18rem;
